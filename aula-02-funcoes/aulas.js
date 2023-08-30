@@ -7,6 +7,12 @@ DECLARA UMA FUNÇÃO:
         bloco de execução de uma função
     };
 
+DECLARA UMA FUNÇÃO COM RETORNO:
+    function nomeDaFuncao ( parametro1 , parametro2 , parametro3 ) {
+        nomeVariavel = parametro1 + parametro2
+        return nomeVariavel;
+    };
+
 
 CHAMA A FUNÇÃO:
     nomeDaFuncao();
