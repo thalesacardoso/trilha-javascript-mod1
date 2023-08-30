@@ -17,7 +17,7 @@ COMANDOS DE SAÍDA
 
 FUNÇÕES NATIVAS
     gastoTotal.toFixed(2)  // DEIXA O NUMERO COM 2 CASAS DECIMAIS
-
+    math.pow(altura, 2) // Pega o valor da altura e eleva ao expoente 2
 
 OPERADORES ARITMÉTICOS
     +  SOMA

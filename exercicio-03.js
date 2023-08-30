@@ -20,9 +20,9 @@ let nota3 = 1;
 let media = (nota1 + nota2 + nota3) / 3;
 
 // mostra uma mensagem de acordo com a média das notas
-if (media < 5){
+if (media < 5) {
     console.log('Aluno reprovado');
-} else if (media >=5 && media <= 7){
+} else if (media >= 5 && media <= 7) {
     console.log('Aluno em recuperação')
 } else {
     console.log('Aluno Aprovado')
