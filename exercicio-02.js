@@ -23,7 +23,7 @@ let valorTotal;
 let quantidadeDeLitros = distanciaEmKM / consumoPorLitro;
 
 // Estrutura Condicional - Vai calcular o gasto de acordo com o tipo de combustível 
-if (tipoDeCombustivel === 'gasolina' ) {
+if (tipoDeCombustivel === 'gasolina') {
     // cálculo
     valorTotal = quantidadeDeLitros * precoGasolina;
     // mensagem
