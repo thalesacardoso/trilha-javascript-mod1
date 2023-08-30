@@ -8,3 +8,14 @@ você terá 3 variáveis. sendo elas:
 
 Imprima no console o valor que será gasto de combustível para realizar esta viagem.
 */
+
+// variáveis
+let precoCombustivel = 5.00;
+let consumoPorLitro = 12;
+let distancia = 100;
+
+// cálculo do valor gasto
+let valorGasto = (distancia / consumoPorLitro) * precoCombustivel;
+
+// mensagem
+console.log("O gasto total dessa viagem é de R$ " + valorGasto.toFixed(2))
