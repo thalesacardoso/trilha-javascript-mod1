@@ -46,19 +46,9 @@ ESTRUTURAS CONDICIONAIS
     } else if (expressão) {
         aqui é o bloco que será executado no 2º teste;
     } else {
-        aqui é o bloco que será executado se a condição for falsa;
+        aqui é o bloco que será executado se as condições forem falsas;
     }
 */
 
 
 
-let precoCombustivel = 5.0;
-let gastokm = 12;
-let distancia = 100;
-let total
-let gastoTotal
-
-total = distancia / gastokm;
-gastoTotal = total * precoCombustivel;
-
-console.log(gastoTotal.toFixed(2));
