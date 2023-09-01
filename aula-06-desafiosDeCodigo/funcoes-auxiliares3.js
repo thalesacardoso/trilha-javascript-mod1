@@ -1,5 +1,5 @@
 // Valores atribuidos
-let valor = [2000, 250]
+let valor = [1100, 50]
 let i = 0;
 
 function gets() {
