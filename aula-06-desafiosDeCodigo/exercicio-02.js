@@ -18,27 +18,22 @@ Imprima o maior número par e o menor número impar
 let numeros = gets();
 
 // cria variáveis
-let maiorPar = 0;
-let menorImpar = 0;
+let maiorPar = null;
+let menorImpar = null;
 
 // Laço de repetição para testar os valores dos números
 for (let i = 0; i < numeros.length; i++) {
 
-    // faz o teste se o número é impar ou par
+    // verifica se o número recebido é impar ou par.
     if (numeros[i] % 2 === 0) {
-        // compara se o número recebido é o maior número par
-        if (numeros[i] > maiorPar) {
+        // compara se o maiorPar é nulo ou menor do que numeros[i]
+        if (maiorPar === null || numeros[i] > maiorPar) {
             maiorPar = numeros[i];
         }
-    
     } else {
-        // Se o menor número impar é igual a 0 então ele recebe um valor novo
-        if (menorImpar === 0) {
+        // compara se o menorImpar é nulo ou maior do que numeros[i]
+        if (menorImpar === null || numeros[i] < menorImpar) {
             menorImpar = numeros[i];
-
-        // se o valor do menorImpar for maior que o novo número então ele recebe o novo valor. 
-        } else if (menorImpar > numeros[i]) {
-            menorImpar = numeros[i]
         }
     }
 }
